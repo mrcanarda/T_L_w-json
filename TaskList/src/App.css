@@ -1,0 +1,88 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-show {
+  border: 2px solid #7fffd4;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/******* BUTTONS *********/
+
+.task-edit {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: #a3c1ad;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(179, 59, 59);
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task-button {
+  border: 1px solid #4a5d23;
+  background-color: #4a5d23;
+  margin: 10px 0px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
